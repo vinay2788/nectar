@@ -16,7 +16,7 @@ RUN apt-get update && \
         gnupg2 \
         software-properties-common \
         ca-certificates && \
-    add-apt-repository ppa:savoury1/ffmpeg6 -y && \
+   # add-apt-repository ppa:savoury1/ffmpeg6 -y && \
     apt-get update && \
     apt-get install -y ffmpeg && \
     rm -rf /var/lib/apt/lists/*
