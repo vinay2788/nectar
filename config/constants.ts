@@ -1,3 +1,3 @@
-export const API_URL = "3.29.170.46";
-export const API_PORT = "8080";
+export const API_URL = "http://40.172.28.110";
+export const API_PORT = "8081";
 

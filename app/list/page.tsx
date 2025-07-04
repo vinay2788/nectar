@@ -113,7 +113,7 @@ export default function UserTable() {
       //   );
 
       const response = await fetch(
-        `${API_URL}:${API_PORT}/user_project-0.0.1-SNAPSHOT/users`
+        `${API_URL}:${API_PORT}/users`
       );
 
       // Check if the response is OK (status 200)
